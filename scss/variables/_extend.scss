@@ -1,0 +1,27 @@
+%estiloBtn{
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 7px;
+    background-color: $ruby;
+    &hover{
+        background-color: $azul;
+    }
+    a{
+        font-family: $poppins;
+        color: white;
+        font-size: 12px;
+        text-decoration: none;
+    }
+}
+
+
+
+
+@mixin estiloTitulo ($size){
+    font-family: $kaushan;
+    font-size: $size;
+    color: $ruby;
+    text-align: center;
+    font-weight: bold;
+}
