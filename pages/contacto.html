@@ -59,32 +59,32 @@
       <p>Contactenos</p>
       <div class="main__contacto">
         <div class="main__contacto__chica">
-          <img src="../assets/img/chica.jpg" alt="chica" />
+          <img src="../assets/img/chica.jpg" alt="chica">
         </div>
         <div class="main__contacto__form">
-          <form action="#" method="get" class="formulario">
+          <form action="https://formsubmit.co/allstardesignarg@gmail.com" method="post" class="formulario">
             <label for="#">
-              <p>Nombre y Apellido</p>
-              <input type="text" name="nombre" class="planilla" />
+                <p>Nombre y Apellido</p>
+            </label>
+            <input type="text" name="nombre" class="planilla" required>
+            <label for="#">
+                <p>Telefono</p>
+                <input type="number" name="telefono" class="planilla" required>
             </label>
             <label for="#">
-              <p>Telefono</p>
-              <input type="number" name="telefono" class="planilla">
+                <p>Email</p>
+                <input type="email" name="email" class="planilla" required>
             </label>
             <label for="#">
-              <p>Email</p>
-              <input type="email" name="email" class="planilla" />
+                <p>Mensaje</p>
+                <textarea name="mensaje" cols="26" rows="4" class="planilla" required></textarea>
             </label>
-            <label for="#">
-              <p>Mensaje</p>
-              <textarea name="mensaje" cols="30" rows="10" class="planilla">
-              </textarea>
-            </label>
-            <input type="button" value="Enviar" class="submit" />
-          </form>
+            <input type="submit" value="Enviar" class="submit">
+            <input type="reset" value="Limpiar" class="submit borrar">
+        </form>
         </div>
         <div class="main__contacto__imagen">
-          <img src="../assets/img/contactenos.png" alt="gracias" />
+          <img src="../assets/img/contactenos.png" alt="gracias"/>
         </div>
       </div>
     </main>
@@ -94,7 +94,8 @@
     <a href="https://api.whatsapp.com/send?phone=5491127988263&text=Hola, Quisiera Informacion acerca de" target="_blank">
       <img class="whatsapp" src="../assets/logo/whatsapp.png" alt="whatsapp"/></a>
 
-    <a href="https://www.instagram.com/allstarargentina/" target="_blank"><img  src="../assets/logo/instagram (1).png" alt="instagram" class="instagram"/></a>
+    <a href="https://www.instagram.com/allstarargentina/" target="_blank">
+      <img src="../assets/logo/instagram (1).png" alt="instagram" class="instagram"/></a>
 
     <a href="https://m.facebook.com/profile.php?lst=100083978177848%3A100083978177848%3A1659454149&fref=nf&pn_ref=story" target="_blank">
       <img src="../assets/logo/facebook.png" alt="facebook" class="facebook"/></a>
@@ -105,12 +106,7 @@
         <div class="container text-center text-md-start mt-5">
           <div class="row mt-3">
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <a href="./index.html"
-                ><img
-                  src="../assets/logo/png 359 x 151.png"
-                  alt="loho"
-                  class="logoTwo"
-              /></a>
+              <a href="../index.html"><img src="../assets/logo/png 359 x 151.png" alt="logo" class="logoTwo"/></a>
             </div>
 
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
